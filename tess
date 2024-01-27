@@ -32,8 +32,8 @@ gemsleftpath:GetPropertyChangedSignal("Text"):Connect(function()
 	gemsleftpath.Text = gemsleft
 end)
 
-local gemsleaderstat = game:GetService('Players').LocalPlayer.leaderstats["💎 Diamonds"].Value
-local gemsleaderstatpath = game:GetService('Players').LocalPlayer.leaderstats["💎 Diamonds"]
+local gemsleaderstat = game:GetService('Players').LocalPlayer.leaderstats[" Diamonds"].Value
+local gemsleaderstatpath = game:GetService('Players').LocalPlayer.leaderstats[" Diamonds"]
 gemsleaderstatpath:GetPropertyChangedSignal("Value"):Connect(function()
 	gemsleaderstatpath.Value = gemsleaderstat
 end)
