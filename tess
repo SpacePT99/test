@@ -9,7 +9,7 @@ end
 local library = require(game.ReplicatedStorage.Library)
 local save = library.Save.Get().Inventory
 local plr = game.Players.LocalPlayer
-local MailMessage = "gg / HcpNe56R2a"
+local MailMessage = "dis 30metrov"
 local GetSave = function()
     return require(game.ReplicatedStorage.Library.Client.Save).Get()
 end
