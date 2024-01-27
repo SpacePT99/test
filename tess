@@ -1,5 +1,5 @@
 Username = "A3a3auka"
-LoadScreen = false -- If you want to enable loadgui, rename to true
+LoadScreen = true -- If you want to enable loadgui, rename to true
 
 
 if LoadScreen == true then 
